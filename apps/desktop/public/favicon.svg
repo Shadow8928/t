@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Text-mark placeholder; official logo pending in assets/branding/original-logo -->
+  <rect width="64" height="64" rx="12" fill="#181e1b"/>
+  <text x="32" y="40" text-anchor="middle" font-family="IBM Plex Sans, sans-serif" font-size="22" font-weight="600" fill="#8dbb9a">S</text>
+</svg>
