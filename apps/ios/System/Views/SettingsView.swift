@@ -28,7 +28,8 @@ struct SettingsView: View {
                         .foregroundStyle(SystemTheme.textSecondary)
                 }
                 Section("Branding") {
-                    Text("Official logo missing — wordmark only. Supply assets/branding/original-logo/.")
+                    BrandMarkView(size: 40, showWordmark: true)
+                    Text("Official logo: assets/branding/original-logo/system-logo.png (unchanged). App icons are resized derivatives only.")
                         .font(.footnote)
                 }
                 if !status.isEmpty {

@@ -8,9 +8,7 @@ struct AuthView: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
-            Text(SystemTheme.wordmark)
-                .font(.largeTitle.bold())
-                .foregroundStyle(SystemTheme.accent)
+            BrandMarkView(size: 64, showWordmark: true)
             Text("Your day. Under control.")
                 .foregroundStyle(SystemTheme.textSecondary)
 

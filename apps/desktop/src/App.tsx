@@ -16,7 +16,16 @@ function Protected({ children }: { children: React.ReactNode }) {
   const { ready, session, localMode } = useAuth();
   if (!ready) {
     return (
-      <div className="grid h-full place-items-center text-text-secondary">Loading System…</div>
+      <div className="grid h-full place-items-center gap-3">
+        <img
+          src="/branding/system-logo.png"
+          alt="System"
+          width={72}
+          height={72}
+          className="rounded-md bg-[#f0f3f0] p-2 object-contain"
+        />
+        <div className="text-text-secondary">Loading System…</div>
+      </div>
     );
   }
   if (!session && !localMode) return <Navigate to="/auth" replace />;

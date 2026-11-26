@@ -48,7 +48,8 @@ iOS XCTest: open `apps/ios/System.xcodeproj` on macOS and run **SystemTests**.
 
 ## Branding
 
-Official logo was **not** available at kickoff. Place the original under `assets/branding/original-logo/`. Apps use the text wordmark **System** until then.
+Official logo: `assets/branding/original-logo/system-logo.png` (preserved unchanged).  
+Packaging sizes (PWA / favicon / iOS AppIcon) are resized derivatives only — regenerate with `python3 scripts/generate-brand-icons.py`.
 
 ## Security
 

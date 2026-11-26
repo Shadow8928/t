@@ -1,4 +1,5 @@
 import { NavLink, Outlet } from "react-router-dom";
+import { BrandMark } from "./BrandMark";
 import { TimerPanel } from "./TimerPanel";
 import { OfflineBadge } from "./OfflineBadge";
 
@@ -16,8 +17,8 @@ export function AppShell() {
     <div className="flex h-full min-h-0">
       <aside className="flex w-[220px] shrink-0 flex-col border-r border-border bg-surface/80 backdrop-blur">
         <div className="px-5 pb-2 pt-6">
-          <div className="font-display text-2xl font-semibold tracking-tight text-accent">System</div>
-          <p className="mt-1 text-xs text-text-secondary">Your day. Under control.</p>
+          <BrandMark size={44} withWordmark />
+          <p className="mt-2 text-xs text-text-secondary">Your day. Under control.</p>
         </div>
         <nav className="mt-6 flex flex-1 flex-col gap-1 px-3">
           {nav.map((item) => (

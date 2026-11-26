@@ -14,8 +14,9 @@ export const colors = {
 export const brand = {
   name: "System",
   tagline: "Your day. Under control.",
-  /** Logo asset pending — use text wordmark until original is supplied. */
-  logoStatus: "missing" as const,
+  /** Official source: assets/branding/original-logo/system-logo.png */
+  logoStatus: "available" as const,
+  logoPath: "assets/branding/original-logo/system-logo.png",
 };
 
 export type ColorToken = keyof typeof colors;

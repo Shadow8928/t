@@ -1,14 +1,16 @@
-# Original logo — required
+# Official System logo
 
-The official System logo was designated by the product owner but **was not present** in the Project store, attachments, or workspace at kickoff (2026-11-26, America/Chicago).
+**Source file:** `system-logo.png` (exact user upload, preserved unchanged)  
+**Received:** 2026-11-26 (America/Chicago)  
+**Format:** PNG, 800×800, RGBA (black mark on transparent)
 
-## Action required
+This directory holds the **sole official logo source**. Use it for:
 
-1. Place the original logo file(s) in this directory (SVG and/or PNG preferred).
-2. Do **not** invent a replacement Ace/mark.
-3. Until the asset arrives, all apps use the text wordmark **System** only.
+- Login screen
+- Desktop sidebar
+- iPhone app icon (generated sizes from this source)
+- Desktop / PWA icons
+- Splash / launch branding
+- Application branding
 
-## Suggested filenames after upload
-
-- `system-logo.svg`
-- `system-logo.png` (@2x / @3x variants welcome)
+Do **not** redesign, redraw, reinterpret, or replace this image. Generate resized packaging derivatives only when a platform requires specific pixel sizes; keep this original intact.

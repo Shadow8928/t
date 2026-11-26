@@ -130,8 +130,8 @@ export function SettingsPage() {
       <section className="mt-8 text-sm text-text-secondary">
         <h2 className="text-sm font-medium uppercase tracking-wider">Branding</h2>
         <p className="mt-2">
-          Official logo missing — using text wordmark. Place the original under{" "}
-          <code className="text-accent">assets/branding/original-logo/</code>.
+          Official logo: <code className="text-accent">assets/branding/original-logo/system-logo.png</code>{" "}
+          (preserved unchanged; packaging sizes are resized derivatives only).
         </p>
         <p className="mt-2">Timezone default: America/Chicago</p>
       </section>

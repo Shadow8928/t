@@ -1,5 +1,6 @@
 import { useState, type FormEvent } from "react";
 import { Navigate } from "react-router-dom";
+import { BrandMark } from "../components/BrandMark";
 import { supabaseConfigured, useAuth } from "../lib/auth";
 
 export function AuthPage() {
@@ -31,8 +32,9 @@ export function AuthPage() {
   return (
     <div className="grid h-full place-items-center px-4">
       <div className="w-full max-w-md animate-fade-up">
-        <h1 className="font-display text-4xl font-semibold text-accent">System</h1>
-        <p className="mt-2 text-text-secondary">Your day. Under control.</p>
+        <BrandMark size={72} withWordmark />
+        <h1 className="sr-only">System</h1>
+        <p className="mt-3 text-text-secondary">Your day. Under control.</p>
 
         <form onSubmit={onSubmit} className="mt-8 space-y-3">
           {mode === "signup" && (

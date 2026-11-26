@@ -12,6 +12,6 @@ enum SystemTheme {
     static let danger = Color(red: 217 / 255, green: 121 / 255, blue: 121 / 255)
     static let warning = Color(red: 217 / 255, green: 184 / 255, blue: 117 / 255)
 
-    /// Official logo asset missing — text wordmark only.
+    /// Product name shown beside the official logo asset (`LaunchLogo` / original PNG).
     static let wordmark = "System"
 }
